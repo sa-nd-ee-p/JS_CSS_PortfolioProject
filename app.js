@@ -15,7 +15,9 @@ function PageTransitions(){
     }
 
     //Sctions Active 
+    console.log(allSections)
     allSections.addEventListener('click', (e) =>{
+        console.log(e)
         const id = e.target.dataset.id;
         if(id){
             //resmove selected from the other btns
